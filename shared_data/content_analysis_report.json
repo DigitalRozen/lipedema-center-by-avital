@@ -1,0 +1,399 @@
+{
+  "analysis_timestamp": "2026-01-06T16:29:27.194441",
+  "content_overview": {
+    "total_posts": 44,
+    "content_metrics": {
+      "avg_content_length": 876.3,
+      "avg_title_length": 62.1,
+      "length_distribution": {
+        "short_posts": 2,
+        "medium_posts": 3,
+        "long_posts": 39
+      }
+    },
+    "engagement_metrics": {
+      "total_likes": 153,
+      "total_comments": 50,
+      "avg_likes_per_post": 3.5,
+      "avg_comments_per_post": 1.1
+    },
+    "media_metrics": {
+      "posts_with_images": 44,
+      "image_percentage": 100.0
+    }
+  },
+  "category_analysis": {
+    "total_categories": 4,
+    "category_distribution": {
+      "diagnosis": {
+        "count": 4,
+        "percentage": 9.1,
+        "avg_likes": 14.8,
+        "avg_comments": 2.8
+      },
+      "physical": {
+        "count": 3,
+        "percentage": 6.8,
+        "avg_likes": 9.0,
+        "avg_comments": 2.7
+      },
+      "nutrition": {
+        "count": 30,
+        "percentage": 68.2,
+        "avg_likes": 0.5,
+        "avg_comments": 0.7
+      },
+      "mindset": {
+        "count": 7,
+        "percentage": 15.9,
+        "avg_likes": 7.6,
+        "avg_comments": 1.3
+      }
+    },
+    "most_popular_category": [
+      "nutrition",
+      30
+    ],
+    "least_popular_category": [
+      "physical",
+      3
+    ]
+  },
+  "monetization_analysis": {
+    "monetization_distribution": {
+      "High Ticket (Clinic Lead)": {
+        "count": 11,
+        "percentage": 25.0,
+        "avg_engagement": 10.2
+      },
+      "Affiliate (Products)": {
+        "count": 3,
+        "percentage": 6.8,
+        "avg_engagement": 9.0
+      },
+      "Low Ticket (Digital Guide)": {
+        "count": 30,
+        "percentage": 68.2,
+        "avg_engagement": 0.5
+      }
+    },
+    "revenue_potential": {
+      "estimated_monthly_revenue": 227138.0,
+      "currency": "₪",
+      "calculation_note": "Based on estimated traffic and industry conversion rates"
+    }
+  },
+  "keyword_analysis": {
+    "top_keywords": [
+      [
+        "יותר",
+        32
+      ],
+      [
+        "כמו",
+        29
+      ],
+      [
+        "שמן",
+        19
+      ],
+      [
+        "קוקוס",
+        18
+      ],
+      [
+        "חומצה",
+        18
+      ],
+      [
+        "ללא",
+        16
+      ],
+      [
+        "גרם",
+        16
+      ],
+      [
+        "סוכר",
+        16
+      ],
+      [
+        "כמה",
+        15
+      ],
+      [
+        "כפית",
+        15
+      ],
+      [
+        "במיוחד",
+        14
+      ],
+      [
+        "אוקסלית",
+        14
+      ],
+      [
+        "אבקת",
+        14
+      ],
+      [
+        "איזון",
+        14
+      ],
+      [
+        "כפות",
+        13
+      ],
+      [
+        "מכיל",
+        13
+      ],
+      [
+        "כוס",
+        13
+      ],
+      [
+        "חוסר",
+        13
+      ],
+      [
+        "מיקרוגרם",
+        13
+      ],
+      [
+        "הכי",
+        12
+      ]
+    ],
+    "keyword_count": 100
+  },
+  "tag_analysis": {
+    "total_unique_tags": 19,
+    "most_used_tags": [
+      [
+        "ויטמינים",
+        34
+      ],
+      [
+        "דלקת",
+        34
+      ],
+      [
+        "דיאטה",
+        34
+      ],
+      [
+        "תזונה",
+        34
+      ],
+      [
+        "תוספי_מזון",
+        34
+      ],
+      [
+        "תרגילים",
+        13
+      ],
+      [
+        "עיסוי_לימפתי",
+        13
+      ],
+      [
+        "מכשירים",
+        13
+      ],
+      [
+        "טיפול_פיזי",
+        13
+      ],
+      [
+        "גרבי_דחיסה",
+        13
+      ]
+    ],
+    "top_performing_tags": [
+      [
+        "סימפטומים",
+        {
+          "usage_count": 12,
+          "avg_engagement": 5.0,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "אבחון",
+        {
+          "usage_count": 12,
+          "avg_engagement": 5.0,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "זיהוי_מוקדם",
+        {
+          "usage_count": 12,
+          "avg_engagement": 5.0,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "רפואי",
+        {
+          "usage_count": 12,
+          "avg_engagement": 5.0,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "דימוי_גוף",
+        {
+          "usage_count": 13,
+          "avg_engagement": 4.6,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "התמודדות",
+        {
+          "usage_count": 13,
+          "avg_engagement": 4.6,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "רגשות",
+        {
+          "usage_count": 13,
+          "avg_engagement": 4.6,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "ביטחון_עצמי",
+        {
+          "usage_count": 13,
+          "avg_engagement": 4.6,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "תמיכה_נפשית",
+        {
+          "usage_count": 13,
+          "avg_engagement": 4.6,
+          "total_engagement": 60
+        }
+      ],
+      [
+        "תרגילים",
+        {
+          "usage_count": 13,
+          "avg_engagement": 3.5,
+          "total_engagement": 45
+        }
+      ]
+    ],
+    "tag_usage_stats": {
+      "סימפטומים": {
+        "usage_count": 12,
+        "avg_engagement": 5.0,
+        "total_engagement": 60
+      },
+      "אבחון": {
+        "usage_count": 12,
+        "avg_engagement": 5.0,
+        "total_engagement": 60
+      },
+      "זיהוי_מוקדם": {
+        "usage_count": 12,
+        "avg_engagement": 5.0,
+        "total_engagement": 60
+      },
+      "רפואי": {
+        "usage_count": 12,
+        "avg_engagement": 5.0,
+        "total_engagement": 60
+      },
+      "תרגילים": {
+        "usage_count": 13,
+        "avg_engagement": 3.5,
+        "total_engagement": 45
+      },
+      "עיסוי_לימפתי": {
+        "usage_count": 13,
+        "avg_engagement": 3.5,
+        "total_engagement": 45
+      },
+      "מכשירים": {
+        "usage_count": 13,
+        "avg_engagement": 3.5,
+        "total_engagement": 45
+      },
+      "טיפול_פיזי": {
+        "usage_count": 13,
+        "avg_engagement": 3.5,
+        "total_engagement": 45
+      },
+      "גרבי_דחיסה": {
+        "usage_count": 13,
+        "avg_engagement": 3.5,
+        "total_engagement": 45
+      },
+      "ויטמינים": {
+        "usage_count": 34,
+        "avg_engagement": 0.6,
+        "total_engagement": 19
+      },
+      "דלקת": {
+        "usage_count": 34,
+        "avg_engagement": 0.6,
+        "total_engagement": 19
+      },
+      "דיאטה": {
+        "usage_count": 34,
+        "avg_engagement": 0.6,
+        "total_engagement": 19
+      },
+      "תזונה": {
+        "usage_count": 34,
+        "avg_engagement": 0.6,
+        "total_engagement": 19
+      },
+      "תוספי_מזון": {
+        "usage_count": 34,
+        "avg_engagement": 0.6,
+        "total_engagement": 19
+      },
+      "דימוי_גוף": {
+        "usage_count": 13,
+        "avg_engagement": 4.6,
+        "total_engagement": 60
+      },
+      "התמודדות": {
+        "usage_count": 13,
+        "avg_engagement": 4.6,
+        "total_engagement": 60
+      },
+      "רגשות": {
+        "usage_count": 13,
+        "avg_engagement": 4.6,
+        "total_engagement": 60
+      },
+      "ביטחון_עצמי": {
+        "usage_count": 13,
+        "avg_engagement": 4.6,
+        "total_engagement": 60
+      },
+      "תמיכה_נפשית": {
+        "usage_count": 13,
+        "avg_engagement": 4.6,
+        "total_engagement": 60
+      }
+    }
+  },
+  "recommendations": [
+    "Increase affiliate product content - currently under 30% of posts",
+    "Focus on improving content engagement - consider more interactive or visual content"
+  ]
+}

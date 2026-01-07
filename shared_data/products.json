@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-06T16:29:27.184258",
+    "total_products": 10,
+    "active_products": 10,
+    "portfolio_stats": {
+      "total_value": 15037,
+      "currency": "₪",
+      "total_products": 10,
+      "physical_count": 8,
+      "digital_count": 2,
+      "physical_value": 14689,
+      "digital_value": 348,
+      "average_price": 1503.7
+    }
+  },
+  "products": [
+    {
+      "id": "lympha-press-optimal-plus",
+      "name": "Lympha Press Optimal Plus",
+      "type": "Physical",
+      "price": 12000,
+      "currency": "₪",
+      "description": "מכשיר דחיסה פנאומטי מתקדם לטיפול בליפדמה ולימפדמה. הפתרון המקצועי המומלץ ביותר לטיפול ביתי.",
+      "image_url": "https://example.com/lympha-press-optimal.jpg",
+      "affiliate_link": "https://affiliate.link/lympha-press-optimal",
+      "trigger_tags": [
+        "עיסוי_לימפתי",
+        "מכשירים",
+        "דחיסה",
+        "טיפול_פיזי",
+        "נפיחות"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 1
+    },
+    {
+      "id": "faradbeauty-led-mask",
+      "name": "FaradBeauty מסכת LED",
+      "type": "Physical",
+      "price": 620,
+      "currency": "₪",
+      "description": "מסכת טיפוח פנים מתקדמת עם טכנולוגיית LED לשיפור מחזור הדם והפחתת דלקות.",
+      "image_url": "https://example.com/faradbeauty-led.jpg",
+      "affiliate_link": "https://affiliate.link/faradbeauty-led",
+      "trigger_tags": [
+        "טיפול_פיזי",
+        "דלקת",
+        "מכשירים",
+        "פנים"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 2
+    },
+    {
+      "id": "faradbeauty-lymph-brush",
+      "name": "FaradBeauty מברשת לימפה",
+      "type": "Physical",
+      "price": 480,
+      "currency": "₪",
+      "description": "מברשת עיסוי מחוממת לעיסוי לימפתי יעיל ושיפור הזרימה הלימפתית.",
+      "image_url": "https://example.com/faradbeauty-brush.jpg",
+      "affiliate_link": "https://affiliate.link/faradbeauty-brush",
+      "trigger_tags": [
+        "עיסוי_לימפתי",
+        "מכשירים",
+        "טיפול_פיזי"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 1
+    },
+    {
+      "id": "jobst-elvarex-soft",
+      "name": "JOBST Elvarex Soft",
+      "type": "Physical",
+      "price": 450,
+      "currency": "₪",
+      "description": "גרבי דחיסה רכות פרימיום מבית JOBST, המותג המוביל בעולם לטיפולי דחיסה.",
+      "image_url": "https://example.com/jobst-elvarex.jpg",
+      "affiliate_link": "https://affiliate.link/jobst-elvarex",
+      "trigger_tags": [
+        "גרבי_דחיסה",
+        "דחיסה",
+        "טיפול_פיזי",
+        "נפיחות"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 1
+    },
+    {
+      "id": "compression-sleeve-arm",
+      "name": "שרוול דחיסה רפואי",
+      "type": "Physical",
+      "price": 320,
+      "currency": "₪",
+      "description": "שרוול דחיסה מקצועי לזרוע, מיועד לטיפול בליפדמה ולימפדמה בזרועות.",
+      "image_url": "https://example.com/compression-sleeve.jpg",
+      "affiliate_link": "https://affiliate.link/compression-sleeve",
+      "trigger_tags": [
+        "גרבי_דחיסה",
+        "דחיסה",
+        "זרועות",
+        "טיפול_פיזי"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 2
+    },
+    {
+      "id": "compression-stockings-premium",
+      "name": "גרביים דחיסה רפואיות",
+      "type": "Physical",
+      "price": 299,
+      "currency": "₪",
+      "description": "גרביים דחיסה איכותיות לתמיכה יומיומית ושיפור זרימת הלימפה ברגליים.",
+      "image_url": "https://example.com/compression-stockings.jpg",
+      "affiliate_link": "https://affiliate.link/compression-stockings",
+      "trigger_tags": [
+        "גרבי_דחיסה",
+        "דחיסה",
+        "רגליים",
+        "טיפול_פיזי"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 2
+    },
+    {
+      "id": "short-compression-bandages",
+      "name": "תחבושות דחיסה קצרות",
+      "type": "Physical",
+      "price": 280,
+      "currency": "₪",
+      "description": "סט תחבושות דחיסה קצרות מקצועיות לטיפול ממוקד באזורים ספציפיים.",
+      "image_url": "https://example.com/short-bandages.jpg",
+      "affiliate_link": "https://affiliate.link/short-bandages",
+      "trigger_tags": [
+        "דחיסה",
+        "תחבושות",
+        "טיפול_פיזי"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 3
+    },
+    {
+      "id": "medical-compression-socks-lipedema",
+      "name": "גרבי דחיסה רפואיות",
+      "type": "Physical",
+      "price": 240,
+      "currency": "₪",
+      "description": "גרבי דחיסה מיוחדות לליפדמה עם תמיכה מותאמת ונוחות מקסימלית.",
+      "image_url": "https://example.com/medical-socks-lipedema.jpg",
+      "affiliate_link": "https://affiliate.link/medical-socks-lipedema",
+      "trigger_tags": [
+        "גרבי_דחיסה",
+        "ליפדמה",
+        "רפואי",
+        "טיפול_פיזי"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 2
+    },
+    {
+      "id": "lipedema-exercise-course",
+      "name": "קורס וידאו: תרגילים לליפדמה",
+      "type": "Digital",
+      "price": 199,
+      "currency": "₪",
+      "description": "סדרת תרגילים מותאמים לליפדמה עם הדרכה מקצועית וטכניקות מתקדמות.",
+      "image_url": "https://example.com/exercise-course.jpg",
+      "affiliate_link": "https://checkout.link/exercise-course",
+      "trigger_tags": [
+        "תרגילים",
+        "טיפול_פיזי",
+        "וידאו",
+        "הדרכה"
+      ],
+      "active": true,
+      "category_match": "physical",
+      "priority": 1
+    },
+    {
+      "id": "nutrition-guide-digital",
+      "name": "ספר דיגיטלי: מדריך התזונה",
+      "type": "Digital",
+      "price": 149,
+      "currency": "₪",
+      "description": "מדריך תזונה מקיף לליפדמה עם תפריטים מותאמים, מתכונים ועצות מקצועיות.",
+      "image_url": "https://example.com/nutrition-guide.jpg",
+      "affiliate_link": "https://checkout.link/nutrition-guide",
+      "trigger_tags": [
+        "תזונה",
+        "דיאטה",
+        "מדריך",
+        "דלקת",
+        "ויטמינים"
+      ],
+      "active": true,
+      "category_match": "nutrition",
+      "priority": 1
+    }
+  ]
+}

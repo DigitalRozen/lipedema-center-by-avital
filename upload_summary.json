@@ -1,0 +1,30 @@
+{
+  "upload_date": "2026-01-07",
+  "project_name": "Lipedema Center by Avital",
+  "repository": "https://github.com/DigitalRozen/lipedema-center-by-avital",
+  "components": {
+    "frontend": "Next.js 16 + React 19 + TypeScript",
+    "backend": "Python backend brain",
+    "database": "Supabase PostgreSQL",
+    "styling": "Tailwind CSS 4",
+    "testing": "Vitest + Testing Library"
+  },
+  "features": {
+    "affiliate_products": 10,
+    "portfolio_value": "₪15,037",
+    "languages": [
+      "Hebrew (RTL)",
+      "English"
+    ],
+    "revenue_streams": 3
+  },
+  "files_included": [
+    "Complete Next.js application",
+    "Python backend brain",
+    "Shared data and reports",
+    "Product management scripts",
+    "Supabase migrations",
+    "Comprehensive tests",
+    "Documentation"
+  ]
+}

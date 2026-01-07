@@ -1,0 +1,83 @@
+{
+  "processing_metadata": {
+    "processed_at": "2026-01-06T16:29:27.216190",
+    "input_file": "dataset_instagram2026-01-03.json",
+    "output_files": [
+      "shared_data/content_db.json",
+      "shared_data/products.json",
+      "shared_data/content_analysis_report.json",
+      "shared_data/processing_summary.json"
+    ]
+  },
+  "content_summary": {
+    "total_posts_processed": 44,
+    "total_products": 10,
+    "categories": {
+      "diagnosis": {
+        "count": 4,
+        "monetization_strategies": [
+          "High Ticket (Clinic Lead)"
+        ]
+      },
+      "physical": {
+        "count": 3,
+        "monetization_strategies": [
+          "Affiliate (Products)"
+        ]
+      },
+      "nutrition": {
+        "count": 30,
+        "monetization_strategies": [
+          "Low Ticket (Digital Guide)"
+        ]
+      },
+      "mindset": {
+        "count": 7,
+        "monetization_strategies": [
+          "High Ticket (Clinic Lead)"
+        ]
+      }
+    },
+    "product_breakdown": {
+      "physical": 8,
+      "digital": 2,
+      "total_value": 15037,
+      "average_price": 1503.7
+    }
+  },
+  "quality_metrics": {
+    "avg_content_length": 876.3,
+    "avg_engagement": 3.5,
+    "posts_with_images": 44
+  },
+  "monetization_insights": {
+    "revenue_potential": {
+      "estimated_monthly_revenue": 227138.0,
+      "currency": "₪",
+      "calculation_note": "Based on estimated traffic and industry conversion rates"
+    },
+    "strategy_distribution": {
+      "High Ticket (Clinic Lead)": {
+        "count": 11,
+        "percentage": 25.0,
+        "avg_engagement": 10.2
+      },
+      "Affiliate (Products)": {
+        "count": 3,
+        "percentage": 6.8,
+        "avg_engagement": 9.0
+      },
+      "Low Ticket (Digital Guide)": {
+        "count": 30,
+        "percentage": 68.2,
+        "avg_engagement": 0.5
+      }
+    }
+  },
+  "recommendations": [
+    "Increase affiliate product content - currently under 30% of posts",
+    "Focus on improving content engagement - consider more interactive or visual content"
+  ],
+  "data_files_ready": true,
+  "frontend_integration_ready": true
+}

@@ -1,0 +1,20 @@
+{
+  "total_articles": 5,
+  "awareness_level_distribution": {
+    "problem": 2,
+    "product": 2,
+    "solution": 1
+  },
+  "category_distribution": {
+    "diagnosis": 1,
+    "physical": 3,
+    "nutrition": 1
+  },
+  "monetization_distribution": {
+    "High Ticket (Clinic Lead)": 1,
+    "Affiliate (Products)": 3,
+    "Low Ticket (Digital Guide)": 1
+  },
+  "average_reading_time": 1.0,
+  "transformation_date": "2026-01-07T07:56:19.350672"
+}

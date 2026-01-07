@@ -1,0 +1,70 @@
+
+/* Hebrew RTL Content Styles */
+.hebrew-content {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Heebo', 'Assistant', 'Rubik', sans-serif;
+    line-height: 1.7;
+}
+
+.hebrew-content h1,
+.hebrew-content h2,
+.hebrew-content h3,
+.hebrew-content h4,
+.hebrew-content h5,
+.hebrew-content h6 {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Playfair Display', 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+}
+
+.hebrew-content p {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.hebrew-content ul,
+.hebrew-content ol {
+    direction: rtl;
+    text-align: right;
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+.hebrew-content li {
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+
+.hebrew-content blockquote {
+    direction: rtl;
+    text-align: right;
+    border-right: 4px solid #e5e7eb;
+    border-left: none;
+    padding-right: 1rem;
+    padding-left: 0;
+    margin-right: 0;
+    font-style: italic;
+}
+
+.hebrew-content .cta-button {
+    direction: rtl;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+}
+
+/* Responsive Hebrew typography */
+@media (max-width: 768px) {
+    .hebrew-content {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    .hebrew-content h1 { font-size: 1.8rem; }
+    .hebrew-content h2 { font-size: 1.5rem; }
+    .hebrew-content h3 { font-size: 1.3rem; }
+}
