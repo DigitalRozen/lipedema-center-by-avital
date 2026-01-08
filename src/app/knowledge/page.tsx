@@ -7,8 +7,7 @@ import { Search, Filter, X } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 import { Post, PostCategory } from '@/types/database'
 import { useLocale } from '@/lib/i18n/context'
-
-import keywordImageMap from '@/lib/article_keyword_map.json'
+import { getArticleImage } from '@/lib/utils/imageUtils'
 
 
 export default function KnowledgePage() {
@@ -185,54 +184,18 @@ export default function KnowledgePage() {
               <p className="text-gray-500 mb-6">{filteredPosts.length} {t.articles.found}</p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredPosts.map((post) => {
-                  const titleLower = post.title.toLowerCase();
-                  const contentLower = post.content.toLowerCase();
-                  
-                  // חיפוש התאמה בכותרת או בתוכן
-                  const matchedEntry = keywordImageMap.find(entry =>
-                    entry.keywords.some(kw => 
-                      titleLower.includes(kw.toLowerCase()) || 
-                      contentLower.includes(kw.toLowerCase())
-                    )
-                  );
-                  
-                  let finalImage = null;
-                  
-                  if (matchedEntry) {
-                    // תמונה מותאמת אישית
-                    finalImage = `/articles/${matchedEntry.image}.png`;
-                  } else {
-                    // תמונת ברירת מחדל לפי קטגוריה
-                    const categoryFallbacks = {
-                      'diagnosis': '/assets/generated/diagnosis_fallback.png',
-                      'nutrition': '/assets/generated/nutrition_fallback.png', 
-                      'physical': '/assets/generated/physical_fallback.png',
-                      'mindset': '/assets/generated/mindset_fallback.png',
-                      // Legacy categories
-                      'Nutrition': '/assets/generated/nutrition_fallback.png',
-                      'Treatment': '/assets/generated/physical_fallback.png',
-                      'Success': '/assets/generated/mindset_fallback.png'
-                    };
-                    
-                    finalImage = categoryFallbacks[post.category_slug] || post.image_url;
-                  }
+                  const finalImage = getArticleImage(post);
 
                   return (
                     <Link key={post.id} href={`/knowledge/${post.slug}`} className="card group">
                       <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-sage-200/50 to-dusty-rose-100/50">
-                        {finalImage ? (
-                          <Image
-                            src={finalImage}
-                            alt={post.title}
-                            fill
-                            className="object-cover group-hover:scale-105 transition-transform duration-300"
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                          />
-                        ) : (
-                          <div className="w-full h-full flex items-center justify-center text-sage-400">
-                            <span className="text-sm">אין תמונה</span>
-                          </div>
-                        )}
+                        <Image
+                          src={finalImage}
+                          alt={post.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
                       </div>
                       <div className="p-6">
                         <div className="flex items-center justify-between mb-4">

@@ -8,6 +8,7 @@ import { createClient } from '@/lib/supabase/client'
 import { useEffect, useState } from 'react'
 import { Post } from '@/types/database'
 import { Hero } from '@/components/Hero'
+import { getArticleImage } from '@/lib/utils/imageUtils'
 
 export default function HomePage() {
   const { t, locale, dir } = useLocale()
@@ -31,13 +32,6 @@ export default function HomePage() {
 
   const getCategoryLabel = (category: string) => {
     return t.categories[category as keyof typeof t.categories] || category
-  }
-
-  const categoryImages: Record<string, string> = {
-    nutrition: '/images/cat-nutrition.png',
-    physical: '/images/cat-treatment.png',
-    mindset: '/images/cat-mindset.png',
-    diagnosis: '/images/cat-treatment.png',
   }
 
   return (
@@ -121,7 +115,7 @@ export default function HomePage() {
                 <Link key={post.id} href={`/knowledge/${post.slug}`} className="glass-card group overflow-hidden border-0 bg-white/40 hover:bg-white/60">
                   <div className="aspect-[16/10] relative overflow-hidden bg-sage-100">
                     <Image
-                      src={post.image_url || categoryImages[post.category] || '/images/cat-nutrition.png'}
+                      src={getArticleImage(post)}
                       alt={post.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
