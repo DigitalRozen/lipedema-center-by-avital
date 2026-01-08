@@ -8,6 +8,9 @@ import { createClient } from '@/lib/supabase/client'
 import { Post, PostCategory } from '@/types/database'
 import { useLocale } from '@/lib/i18n/context'
 
+import keywordImageMap from '@/lib/article_keyword_map.json'
+
+
 export default function KnowledgePage() {
   const { t } = useLocale()
   const [posts, setPosts] = useState<Post[]>([])
@@ -181,30 +184,75 @@ export default function KnowledgePage() {
             <>
               <p className="text-gray-500 mb-6">{filteredPosts.length} {t.articles.found}</p>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {filteredPosts.map((post) => (
-                  <Link key={post.id} href={`/knowledge/${post.slug}`} className="card group">
-                    <div
-                      className="aspect-video bg-gradient-to-br from-sage-200/50 to-dusty-rose-100/50 bg-cover bg-center"
-                      style={post.image_url ? { backgroundImage: `url(${post.image_url})` } : {}}
-                    />
-                    <div className="p-6">
-                      <span className="text-xs font-medium text-sage-700 bg-sage-100 px-3 py-1 rounded-full">
-                        {getCategoryLabel(post.category, post.category_display)}
-                      </span>
-                      <h3 className="text-lg font-display font-semibold text-sage-900 mt-3 mb-2 group-hover:text-dusty-rose-600 transition-colors">
-                        {post.title}
-                      </h3>
-                      <p className="text-gray-600 text-sm line-clamp-2">{post.excerpt}</p>
-                      <div className="flex flex-wrap gap-2 mt-4">
-                        {(post.tags || []).slice(0, 3).map((tag) => (
-                          <span key={tag} className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                            #{tag}
-                          </span>
-                        ))}
+                {filteredPosts.map((post) => {
+                  const titleLower = post.title.toLowerCase();
+                  const contentLower = post.content.toLowerCase();
+                  
+                  // חיפוש התאמה בכותרת או בתוכן
+                  const matchedEntry = keywordImageMap.find(entry =>
+                    entry.keywords.some(kw => 
+                      titleLower.includes(kw.toLowerCase()) || 
+                      contentLower.includes(kw.toLowerCase())
+                    )
+                  );
+                  
+                  let finalImage = null;
+                  
+                  if (matchedEntry) {
+                    // תמונה מותאמת אישית
+                    finalImage = `/articles/${matchedEntry.image}.png`;
+                  } else {
+                    // תמונת ברירת מחדל לפי קטגוריה
+                    const categoryFallbacks = {
+                      'diagnosis': '/assets/generated/diagnosis_fallback.png',
+                      'nutrition': '/assets/generated/nutrition_fallback.png', 
+                      'physical': '/assets/generated/physical_fallback.png',
+                      'mindset': '/assets/generated/mindset_fallback.png',
+                      // Legacy categories
+                      'Nutrition': '/assets/generated/nutrition_fallback.png',
+                      'Treatment': '/assets/generated/physical_fallback.png',
+                      'Success': '/assets/generated/mindset_fallback.png'
+                    };
+                    
+                    finalImage = categoryFallbacks[post.category_slug] || post.image_url;
+                  }
+
+                  return (
+                    <Link key={post.id} href={`/knowledge/${post.slug}`} className="card group">
+                      <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-sage-200/50 to-dusty-rose-100/50">
+                        {finalImage ? (
+                          <Image
+                            src={finalImage}
+                            alt={post.title}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center text-sage-400">
+                            <span className="text-sm">אין תמונה</span>
+                          </div>
+                        )}
                       </div>
-                    </div>
-                  </Link>
-                ))}
+                      <div className="p-6">
+                        <div className="flex items-center justify-between mb-4">
+                          <span className="text-sm font-medium text-sage-600 bg-sage-50 px-3 py-1 rounded-full">
+                            {post.category_display || post.category}
+                          </span>
+                          <span className="text-sm text-gray-500">
+                            {new Date(post.date).toLocaleDateString('he-IL')}
+                          </span>
+                        </div>
+                        <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 group-hover:text-sage-700 transition-colors">
+                          {post.title}
+                        </h3>
+                        <p className="text-gray-600 line-clamp-2">
+                          {post.excerpt || post.content.substring(0, 100) + "..."}
+                        </p>
+                      </div>
+                    </Link>
+                  )
+                })}
               </div>
             </>
           )}
