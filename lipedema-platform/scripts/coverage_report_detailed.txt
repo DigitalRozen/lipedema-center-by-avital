@@ -1,0 +1,73 @@
+Total Articles: 45
+Total Mapped Images: 21
+
+--- Coverage Statistics ---
+Matched Articles: 43
+Unmatched Articles: 2
+
+--- Unmatched Articles (Using Category Fallback) ---
+Unmatched: My Therapeutic Aromatherapy Candles. | DB_ID: 3385813638527885050
+Unmatched: 30th BIRTHDAY 🦋 | DB_ID: 3056818136702573988
+
+--- Detailed Image Usage ---
+IMAGE: article_healthy_marshmallows (3)
+  - מרשמלו הגרסה הבריאה יותר🩷
+  - "מרשמלו בריא יותר" או במילה אחרת זפיר zefir
+  - מתכון בסוף הסרטון💜
+IMAGE: article_homemade_labneh (1)
+  - לאבנה ביתית מיוגורט ומלח הימלאיה היא מאכל בריא ועשיר בערכים
+IMAGE: article_honey_cheong (2)
+  - סירופ צ’אונג (청) מסורתי מכינים בדרך־כלל מסוכר לבן או חום
+  - דבש גולמי (Raw Honey) נחשב לבריא יותר מדבש שעבר חימום
+IMAGE: article_motherhood_tribute (3)
+  - אִמָּהוּת
+  - כדי להפחית את הסיכון ל-SIDS (תסמונת מוות בעריסה), מומלץ להקפיד
+  - יום הפג הבינלאומי 💪👑🌞👶
+IMAGE: article_b12_sources (2)
+  - תגללו ימינה⬅️
+  - מיגרנות הן כאבי ראש עזים שיכולים להשפיע בצורה משמעותית על
+IMAGE: article_shipka_salad (1)
+  - סלט שיפקה וחצילים חריף/פיקנטי
+IMAGE: article_natural_repellent (1)
+  - היום רוב תכשירי דוחי היתושים יכילו מנטה.
+IMAGE: article_lympha_press (1)
+  - רכישת לימפה פרס :
+IMAGE: article_pmdd_awareness (1)
+  - PMDD – הפרעה דיספורית קדם וסתית (Premenstrual Dysphoric Disorder) –
+IMAGE: article_aloe_first (1)
+  - אלופירסט (Aloe First) הוא תרסיס טבעי מבית Forever Living Products
+IMAGE: article_arfid_awareness (1)
+  - אם הילד או הילדה שלכם אוכלים רק כמה מאכלים בודדים,
+IMAGE: article_oxalic_acid_foods (2)
+  - חומצה אוקסלית נמצאת רק במזון מן הצומח. היא תרכובת טבעית
+  - אשלגן אוקסלט (Potassium Oxalate) הוא תרכובת כימית שממלאת תפקיד חשוב
+IMAGE: article_oxalates_warning (3)
+  - "מזון על" זאת שיטת שיווק שמגלגלת המון כסף.
+  - מתכונים מסודרים:
+  - ממרח גרעיני דלעת הוא בחירה בריאה יותר מממרחים רבים אחרים
+IMAGE: article_lipedema_hope (1)
+  - לעוקבות החדשות שלי
+IMAGE: article_lymphedema_advice (1)
+  - השאלה הכי נפוצה אצלי בפרטי עכשיו כל המידע מסודר לכן!
+IMAGE: article_dry_brushing (3)
+  - כרגע חוקרת כמה מכשירים ביתיים שנראים שעומדים בקריטריונים, ביניהם מברשת
+  - בזמן שכולם יצקצקו ויזלזלו בזה, את תעבדי על עצמך🩷
+  - הכוח של הטבע, עכשיו אצלך בבית! 🌿
+IMAGE: article_coconut_recipes (8)
+  - מה באמת יש בלחם שלנו? 🍞
+  - כיס המרה הוא איבר קטן שמתפקד כמאגר למרה שהכבד מייצר
+  - בוקר טוב🫶
+  - כדורי אנרגיה מתמרים בטעם שוקולדי עשיר ומפנק 🤎
+  - וופל בלגי בריא לנו ולילדים שלנו🥞 מתכון שמלווה אותי הרבה
+  - למתכון בפרטי הגיבו אני 🫶
+  - אם יש לכם בננות שתכף כבר צריך לזרוק, זה המתכון
+  - המתכון הקבוע✌︎
+IMAGE: article_gut_health_foods (8)
+  - מזונות אלה משפרים עיכול, מחזקים מערכת חיסונית ומפחיתים דלקת, אך
+  - בין השאלות הכי נשאלות אצלי
+  - חוסר איזון הורמונלי אצל גברים עלול להשפיע על הבריאות הפיזית
+  - חומץ תפוחים💛
+  - אוכמניות
+  - מרגישה עייפות, שינויי מצב רוח, וסת לא סדירה או סטרס
+  - מקווה שכולם כבר יודעים שכדי לקבל שייק מנצח אנחנו צריכים
+  - מה אני אוכלת ביום-סטודנטית לתזונה ונטורופתיה 💚 כל יום זה

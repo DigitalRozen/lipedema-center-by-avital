@@ -1,0 +1,59 @@
+{
+  "template": {
+    "hook": {
+      "name": "Hook (Pain Point)",
+      "hebrewName": "פתיחה",
+      "wordCount": "100-150",
+      "purpose": "Start with the emotional/physical reality the reader faces",
+      "example": "הרגליים שלך מרגישות כבדות בסוף היום?"
+    },
+    "empathy": {
+      "name": "Empathy (Validating the Feeling)",
+      "hebrewName": "הזדהות",
+      "wordCount": "100-150",
+      "purpose": "Acknowledge their struggle with genuine understanding",
+      "example": "אני יודעת בדיוק איך זה מרגיש..."
+    },
+    "science": {
+      "name": "The Science (Simple Explanation)",
+      "hebrewName": "המדע",
+      "wordCount": "150-200",
+      "purpose": "Explain the mechanism in accessible terms without overwhelming",
+      "example": "מערכת הלימפה שלך אחראית על..."
+    },
+    "protocol": {
+      "name": "The Protocol (Actionable Steps)",
+      "hebrewName": "פרוטוקול",
+      "wordCount": "150-200",
+      "purpose": "Provide clear, implementable steps they can take today",
+      "example": "1. התחילי עם תנועה עדינה..."
+    },
+    "bridge": {
+      "name": "The Bridge (Call to Action)",
+      "hebrewName": "גשר",
+      "wordCount": "50-100",
+      "purpose": "Natural transition to relevant product recommendation or clinic consultation",
+      "example": "אם את רוצה ללמוד עוד..."
+    }
+  },
+  "additionalSections": {
+    "qa": {
+      "name": "Q&A Section",
+      "hebrewName": "שאלות ותשובות נפוצות",
+      "required": true,
+      "minQuestions": 3,
+      "maxQuestions": 5,
+      "format": "H3 for questions, paragraph for answers"
+    }
+  },
+  "headingStructure": {
+    "h1": "Article title only",
+    "h2": "Main sections (Hook, Empathy, Science, Protocol, Bridge, Q&A)",
+    "h3": "Questions in Q&A section"
+  },
+  "internalLinks": {
+    "min": 2,
+    "max": 3,
+    "purpose": "Link to related articles within the blog"
+  }
+}

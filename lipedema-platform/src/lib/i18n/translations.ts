@@ -1,0 +1,263 @@
+﻿export type Locale = 'he' | 'en'
+
+export const translations = {
+  he: {
+    nav: {
+      home: 'ראשי',
+      knowledge: 'מרכז הידע',
+      clinic: 'הקליניקה',
+      admin: 'אזור אישי',
+      about: 'אודות',
+      joinWaitlist: 'הצטרפי לרשימת ההמתנה',
+    },
+    hero: {
+      headline: 'מנצחות את הליפאדמה ביחד',
+      subheadline: 'הבית לטיפול נטורופתי משולב',
+      description: 'ליווי מקצועי, טיפולים מוכחים וקהילה תומכת שתעזור לך לנהל את הליפאדמה ולהחזיר את הביטחון בגוף שלך.',
+      ctaPrimary: 'למדריך המלא',
+      ctaSecondary: 'הצטרפות לרשימת המתנה',
+    },
+    features: {
+      title: 'איך אני יכולה לעזור לך?',
+      knowledge: {
+        title: 'מרכז הידע',
+        description: 'מאמרים מקצועיים, מחקרים עדכניים וטיפים מעשיים לניהול ליפאדמה בחיי היומיום.',
+      },
+      treatments: {
+        title: 'טיפולים מתקדמים',
+        description: 'סאונה אינפרא-אדום, פלטפורמת רטט ועוד טיפולים חדשניים בקליניקה שלי.',
+      },
+      support: {
+        title: 'ליווי אישי',
+        description: 'תוכנית מותאמת אישית הכוללת תזונה, תנועה ותמיכה רגשית לאורך כל הדרך.',
+      },
+    },
+    articles: {
+      title: 'מאמרים אחרונים',
+      viewAll: 'לכל המאמרים',
+      noResults: 'לא נמצאו מאמרים התואמים את החיפוש',
+      clearSearch: 'נקה חיפוש',
+      found: 'מאמרים נמצאו',
+      searchPlaceholder: 'חיפוש מאמרים...',
+    },
+    categories: {
+      all: 'הכל',
+      Nutrition: 'תזונה',
+      Treatment: 'טיפולים',
+      Success: 'סיפורי הצלחה',
+      diagnosis: 'אבחון וזיהוי',
+      nutrition: 'תזונה ונוטריציה',
+      physical: 'טיפול פיזי ושיקום',
+      mindset: 'מיינדסט ורגש',
+    },
+    cta: {
+      title: 'מוכנה להתחיל את המסע שלך?',
+      description: 'הצטרפי לרשימת ההמתנה וקבלי גישה ראשונה לטיפולים החדשים בקליניקה',
+      button: 'הצטרפי עכשיו',
+    },
+    clinic: {
+      title: 'הקליניקה של אביטל',
+      description: 'טיפולים מתקדמים לליפאדמה בסביבה מפנקת ומקצועית. הצטרפי לרשימת ההמתנה וקבלי גישה ראשונה.',
+      futureTreatments: 'טיפולים עתידיים',
+      joinWaitlist: 'הצטרפי לרשימת ההמתנה',
+      quizIntro: 'ענו על 3 שאלות קצרות כדי שנוכל להתאים לך את הטיפול המושלם',
+      startQuiz: 'בואי נתחיל',
+      questionOf: 'שאלה {current} מתוך {total}',
+      back: 'חזרה',
+      almostDone: 'מעולה! עוד צעד אחד',
+      leaveDetails: 'השאירי פרטים ונחזור אליך בהקדם',
+      fullName: 'שם מלא',
+      email: 'אימייל',
+      phone: 'טלפון (אופציונלי)',
+      submit: 'הצטרפי לרשימה',
+      submitting: 'שולח...',
+      thankYou: 'תודה שהצטרפת!',
+      thankYouMessage: 'קיבלנו את הפרטים שלך ונחזור אליך בהקדם עם עדכונים על הטיפולים החדשים.',
+      selected: 'נבחר',
+    },
+    treatments: {
+      sauna: {
+        name: 'סאונה אינפרא-אדום',
+        description: 'טיפול מתקדם המשלב חום עמוק לשיפור זרימת הדם והלימפה, הפחתת דלקות וכאבים.',
+        benefits: ['שיפור זרימת הדם', 'הפחתת נפיחות', 'הרפיית שרירים', 'ניקוי רעלים'],
+      },
+      vibration: {
+        name: 'פלטפורמת רטט',
+        description: 'טכנולוגיה חדשנית המעודדת ניקוז לימפתי, חיזוק שרירים ושיפור הגמישות.',
+        benefits: ['ניקוז לימפתי', 'חיזוק שרירים', 'שיפור גמישות', 'הפחתת צלוליט'],
+      },
+    },
+    quiz: {
+      diagnosed: {
+        question: 'האם אובחנת עם ליפאדמה?',
+        options: ['כן, אובחנתי רשמית', 'חושדת שיש לי', 'לא בטוחה'],
+      },
+      symptoms: {
+        question: 'מהם התסמינים העיקריים שלך?',
+        options: ['נפיחות ברגליים', 'כאבים ורגישות', 'קושי בירידה במשקל', 'כל הנ"ל'],
+      },
+      goals: {
+        question: 'מה המטרה העיקרית שלך?',
+        options: ['הקלה בכאבים', 'שיפור מראה', 'שיפור תנועתיות', 'הבנה טובה יותר של המצב'],
+      },
+    },
+    knowledge: {
+      title: 'מרכז הידע',
+      description: 'מאמרים מקצועיים, מחקרים עדכניים וטיפים מעשיים לניהול ליפאדמה בחיי היומיום',
+      backToHub: 'חזרה למרכז הידע',
+    },
+    sidebar: {
+      recommended: 'מומלץ עבורך',
+      digitalProduct: 'מוצר דיגיטלי',
+      physicalProduct: 'מוצר פיזי',
+      personalSupport: 'רוצה ליווי אישי?',
+      personalSupportDesc: 'הצטרפי לרשימת ההמתנה וקבלי גישה ראשונה לטיפולים החדשים בקליניקה',
+    },
+    share: {
+      title: 'שיתוף',
+      facebook: 'שיתוף בפייסבוק',
+      whatsapp: 'שיתוף בווטסאפ',
+      instagram: 'העתקת קישור לאינסטגרם',
+      copyLink: 'העתקת קישור',
+      linkCopied: 'הקישור הועתק!',
+    },
+    footer: {
+      expert: 'מומחית ליפאדמה',
+      description: 'מלווה נשים בדרך להבנה עמוקה של הגוף שלהן ולטיפול מותאם אישית בליפאדמה. גישה הוליסטית המשלבת תזונה, טיפולים מתקדמים ותמיכה מקצועית.',
+      quickLinks: 'קישורים מהירים',
+      contact: 'יצירת קשר',
+      rights: 'כל הזכויות שמורות.',
+    },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      knowledge: 'Knowledge Hub',
+      clinic: 'Clinic',
+      admin: 'My Account',
+      about: 'About',
+      joinWaitlist: 'Join Waitlist',
+    },
+    hero: {
+      headline: 'Conquering Lipedema Together',
+      subheadline: 'Your Home for Integrated Naturopathic Care',
+      description: 'Professional guidance, proven treatments, and a supportive community to help you manage lipedema and regain confidence in your body.',
+      ctaPrimary: 'Explore Knowledge Hub',
+      ctaSecondary: 'Join Clinic Waitlist',
+    },
+    features: {
+      title: 'How Can I Help You?',
+      knowledge: {
+        title: 'Knowledge Hub',
+        description: 'Professional articles, latest research, and practical tips for managing lipedema in daily life.',
+      },
+      treatments: {
+        title: 'Advanced Treatments',
+        description: 'Infrared sauna, vibration platform, and other innovative treatments at my clinic.',
+      },
+      support: {
+        title: 'Personal Support',
+        description: 'A personalized program including nutrition, movement, and emotional support throughout your journey.',
+      },
+    },
+    articles: {
+      title: 'Latest Articles',
+      viewAll: 'View All Articles',
+      noResults: 'No articles found matching your search',
+      clearSearch: 'Clear search',
+      found: 'articles found',
+      searchPlaceholder: 'Search articles...',
+    },
+    categories: {
+      all: 'All',
+      Nutrition: 'Nutrition',
+      Treatment: 'Treatments',
+      Success: 'Success Stories',
+      diagnosis: 'Diagnosis & Identification',
+      nutrition: 'Nutrition & Diet',
+      physical: 'Physical Therapy & Rehabilitation',
+      mindset: 'Mindset & Emotional',
+    },
+    cta: {
+      title: 'Ready to Start Your Journey?',
+      description: 'Join the waitlist and get first access to new treatments at the clinic',
+      button: 'Join Now',
+    },
+    clinic: {
+      title: "Avital's Clinic",
+      description: 'Advanced lipedema treatments in a pampering and professional environment. Join the waitlist and get first access.',
+      futureTreatments: 'Future Treatments',
+      joinWaitlist: 'Join the Waitlist',
+      quizIntro: 'Answer 3 short questions so we can match you with the perfect treatment',
+      startQuiz: "Let's Start",
+      questionOf: 'Question {current} of {total}',
+      back: 'Back',
+      almostDone: 'Great! One more step',
+      leaveDetails: 'Leave your details and we will get back to you soon',
+      fullName: 'Full Name',
+      email: 'Email',
+      phone: 'Phone (optional)',
+      submit: 'Join the List',
+      submitting: 'Submitting...',
+      thankYou: 'Thank You for Joining!',
+      thankYouMessage: 'We received your details and will get back to you soon with updates on new treatments.',
+      selected: 'Selected',
+    },
+    treatments: {
+      sauna: {
+        name: 'Infrared Sauna',
+        description: 'Advanced treatment combining deep heat to improve blood and lymph flow, reduce inflammation and pain.',
+        benefits: ['Improved blood flow', 'Reduced swelling', 'Muscle relaxation', 'Detoxification'],
+      },
+      vibration: {
+        name: 'Vibration Platform',
+        description: 'Innovative technology that promotes lymphatic drainage, muscle strengthening, and improved flexibility.',
+        benefits: ['Lymphatic drainage', 'Muscle strengthening', 'Improved flexibility', 'Cellulite reduction'],
+      },
+    },
+    quiz: {
+      diagnosed: {
+        question: 'Have you been diagnosed with lipedema?',
+        options: ['Yes, officially diagnosed', 'I suspect I have it', 'Not sure'],
+      },
+      symptoms: {
+        question: 'What are your main symptoms?',
+        options: ['Leg swelling', 'Pain and sensitivity', 'Difficulty losing weight', 'All of the above'],
+      },
+      goals: {
+        question: 'What is your main goal?',
+        options: ['Pain relief', 'Improved appearance', 'Better mobility', 'Better understanding of the condition'],
+      },
+    },
+    knowledge: {
+      title: 'Knowledge Hub',
+      description: 'Professional articles, latest research, and practical tips for managing lipedema in daily life',
+      backToHub: 'Back to Knowledge Hub',
+    },
+    sidebar: {
+      recommended: 'Recommended for You',
+      digitalProduct: 'Digital Product',
+      physicalProduct: 'Physical Product',
+      personalSupport: 'Want Personal Support?',
+      personalSupportDesc: 'Join the waitlist and get first access to new treatments at the clinic',
+    },
+    share: {
+      title: 'Share',
+      facebook: 'Share on Facebook',
+      whatsapp: 'Share on WhatsApp',
+      instagram: 'Copy link for Instagram',
+      copyLink: 'Copy link',
+      linkCopied: 'Link copied!',
+    },
+    footer: {
+      expert: 'Lipedema Expert',
+      description: 'Guiding women to a deeper understanding of their bodies and personalized lipedema treatment. A holistic approach combining nutrition, advanced treatments, and professional support.',
+      quickLinks: 'Quick Links',
+      contact: 'Contact',
+      rights: 'All rights reserved.',
+    },
+  },
+} as const
+
+export type TranslationKey = keyof typeof translations.he
+

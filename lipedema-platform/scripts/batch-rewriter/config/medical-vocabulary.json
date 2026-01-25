@@ -1,0 +1,80 @@
+{
+  "hebrewMedicalTerms": {
+    "lymph": "לימפה",
+    "edema": "בצקת",
+    "fibroticTissue": "רקמה פיברוטית",
+    "inflammation": "דלקתיות",
+    "antioxidants": "נוגדי חמצון",
+    "lymphaticSystem": "מערכת הלימפה",
+    "lipedema": "ליפאדמה",
+    "lymphedema": "לימפאדמה",
+    "chronicDisease": "מחלה כרונית",
+    "fatTissue": "רקמת שומן",
+    "bloodVessels": "כלי דם",
+    "compressionGarments": "גרבי לחץ",
+    "manualLymphaticDrainage": "עיסוי לימפטי ידני",
+    "physiotherapy": "פיזיותרפיה",
+    "antiInflammatoryDiet": "תזונה אנטי-דלקתית",
+    "swelling": "נפיחות",
+    "pain": "כאב",
+    "heaviness": "כבדות",
+    "mobility": "תנועתיות",
+    "diagnosis": "אבחנה",
+    "treatment": "טיפול",
+    "symptoms": "תסמינים",
+    "chronicPain": "כאב כרוני",
+    "qualityOfLife": "איכות חיים"
+  },
+  "commonPhrases": {
+    "notJustWeight": "זה לא רק משקל",
+    "notYourFault": "זה לא אשמתך",
+    "thereIsHope": "יש תקווה",
+    "youAreNotAlone": "את לא לבד",
+    "listenToYourBody": "תקשיבי לגוף שלך",
+    "gentleMovement": "תנועה עדינה",
+    "consistentTreatment": "טיפול עקבי",
+    "holisticApproach": "גישה הוליסטית"
+  },
+  "categorySpecificTerms": {
+    "diagnosis": [
+      "אבחנה מדויקת",
+      "רופא כלי דם",
+      "פיזיותרפיסט לימפטי",
+      "סימנים קליניים",
+      "היסטוריה רפואית"
+    ],
+    "nutrition": [
+      "תזונה אנטי-דלקתית",
+      "מזונות מעובדים",
+      "סוכר",
+      "גלוטן",
+      "מוצרי חלב",
+      "ירקות עלים ירוקים",
+      "אומגה 3",
+      "דגים שמנים",
+      "אגוזים",
+      "נוגדי חמצון"
+    ],
+    "physical": [
+      "עיסוי לימפטי",
+      "גרבי לחץ",
+      "תנועה עדינה",
+      "הליכה",
+      "שחייה",
+      "יוגה",
+      "פילאטיס",
+      "תרגילי נשימה",
+      "משאבות לימפה"
+    ],
+    "mindset": [
+      "קבלה עצמית",
+      "קהילה",
+      "מיינדפולנס",
+      "מדיטציה",
+      "ייעוץ מקצועי",
+      "בריאות נפשית",
+      "ביטחון עצמי",
+      "איכות חיים"
+    ]
+  }
+}

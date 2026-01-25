@@ -1,0 +1,30 @@
+Total Articles: 45
+Total Mapped Images: 21
+
+--- Coverage Statistics ---
+Matched Articles: 31
+Unmatched Articles: 14
+
+--- Unmatched Articles (Using Category Fallback) ---
+Unmatched: השאלה הכי נפוצה אצלי בפרטי עכשיו כל המידע מסודר לכן! | DB_ID: 3752015942302565675
+Unmatched: מה באמת יש בלחם שלנו? 🍞 | DB_ID: 3587246165687618225
+Unmatched: כדי להפחית את הסיכון ל-SIDS (תסמונת מוות בעריסה), מומלץ להקפיד | DB_ID: 3564959983973099065
+Unmatched: מתכון בסוף הסרטון💜 | DB_ID: 3443817621699681977
+Unmatched: הכוח של הטבע, עכשיו אצלך בבית! 🌿 | DB_ID: 3492587631519288946
+Unmatched: למתכון בפרטי הגיבו אני 🫶 | DB_ID: 3422763893945244440
+Unmatched: אם יש לכם בננות שתכף כבר צריך לזרוק, זה המתכון | DB_ID: 3364097405281724356
+Unmatched: My Therapeutic Aromatherapy Candles. | DB_ID: 3385813638527885050
+Unmatched: יום הפג הבינלאומי 💪👑🌞👶 | DB_ID: 3237969029836574350
+Unmatched: אוכמניות | DB_ID: 3637424089635933634
+Unmatched: 30th BIRTHDAY 🦋 | DB_ID: 3056818136702573988
+Unmatched: המתכון הקבוע✌︎ | DB_ID: 2894462254832302261
+Unmatched: מקווה שכולם כבר יודעים שכדי לקבל שייק מנצח אנחנו צריכים | DB_ID: 2887131731060719698
+Unmatched: מה אני אוכלת ביום-סטודנטית לתזונה ונטורופתיה 💚 כל יום זה | DB_ID: 2809105176802324102
+
+--- Reuse Warnings ---
+[WARNING] Image 'article_b12_sources' used by 2 articles.
+[WARNING] Image 'article_coconut_recipes' used by 6 articles.
+[WARNING] Image 'article_dry_brushing' used by 2 articles.
+[WARNING] Image 'article_gut_health_foods' used by 5 articles.
+[WARNING] Image 'article_hair_nutrition' used by 4 articles.
+[WARNING] Image 'article_oxalates_warning' used by 3 articles.

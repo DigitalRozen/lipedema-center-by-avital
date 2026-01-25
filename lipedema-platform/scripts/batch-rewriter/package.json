@@ -1,0 +1,35 @@
+{
+  "name": "batch-article-rewriter",
+  "version": "1.0.0",
+  "description": "Batch article rewriter for lipedema-platform blog content",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "content",
+    "rewriter",
+    "mdx",
+    "hebrew",
+    "lipedema"
+  ],
+  "author": "Avital Rozen",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "fast-check": "^3.15.0",
+    "vitest": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}
